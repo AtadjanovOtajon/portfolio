@@ -272,18 +272,117 @@ body {
    transform: translateY(-10px);
 }
 
+.section{
+    display: flex;
+    fwwrap: wrap;
+}
+.container1{
+    width: 600px;
+    height: 500px;
+    padding: 75px 90px;
+    margin-left: 120px;
+}
+.heading1{
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 5px;
+    margin-bottom: 50px;
+}
 
+.bar{
+font-size: 23px;
+}
 
+.Technical_bars .bar{
+    margin-top: 40px 0;
+}
+.Technical_bars .bar:first-child{
+    margin-top: 0;
+}
+Technical_bars .bar :last-child{
+    margin-bottom: 0;
+}
+.Technical_bars .bar .info{
+    margin-bottom: 5px;
+}
+.Technical_bars .bar .info span{
+    font-size: 17px;
+    font-weight: 500;
+    animation: Showtext 0.5s 1s linear;
+}
+.Technical_bars .bar .progress-line{
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    height: 5px;
+    background-color: #000000;
+    animation: animate 1s cubic-bezier(1,0,0,5,1) forwards;
+}
 
+@keyframes animate {
+    100%{
+        transform: scaleX(1);
+    }
+}
+   ..Technical_bars .bar .progress-line span{
+    height: 100%;
+    border-color: #0ef;
+    position: absolute;
+    background-repeat: 10px;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 2s;
+    box-shadow: 0 0 5px #0ef,;
+   }
 
+.read :hover {
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan
+}
 
+.services-list div:hover {
+   transform: translateY(-10px);
+}
 
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
 
+section{
+    display: flex;
+    flex: wrap;
+}
 
+.container1{
+    width: 600px;
+    height: 500px;
+    padding: 75px 90px;
+    margin-left: 120px;
+}
 
+.heading1{
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 5px;
+    margin-bottom: 50px;
+}
 
+.bar{
+    font-size: 23px;
+}
 
-
+.Technical-bars bar{
+    margin-top: 40px 0;
+}
+.Technical-bars .bar:first-child{
+    margin-top: 0;
+}
+.Technical-bars .bar:last-child{
+    margin-bottom: 0;
+}
 
 
 
